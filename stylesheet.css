@@ -27,17 +27,29 @@ h1, p {
     float: left;
     width: 80%;
     background-color: #f4649e;
+    padding: 20px;
   }
-
+  .content h1 {
+    font-size: 30px;
+    font-family: 'Brush Script MT', cursive;
+    padding-left: 20px;
+    color: #fff;
+  }
+  .content p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: #fff;
+  }
   .sidebar {
-    float: right;
     width: 20%;
     background-color: #f888b5;
+    padding: 20px;
 
   }
   .sidebar img#pic4 {
     align-items: center;
     padding-left: 5px;
+    padding-top: 20px;
     
   }
 
@@ -53,12 +65,26 @@ h1, p {
   }
   .footer {
     text-align: right;
+    padding: 20px;
   }
   .footer p {
     color: #481475;
     text-align: right;
     line-height: 0.2;
-
+    font-size: 18px;
+  }
+  .footer a:link {
+    color: #481475;
+  }
+  .footer a:visited {
+    text-decoration: none;
+  }
+  .footer a:hover {
+    text-decoration: none;
+  }
+  .footer a:active{
+    text-decoration: none;
+  }
   }
 
   ul{ 
@@ -97,8 +123,6 @@ h1, p {
     font-size: 15px;
     color :#481475;
   }
-
-}
 
 .wrapper > * {
   color: #fff;
